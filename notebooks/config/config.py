@@ -10,7 +10,11 @@ from notebooks.domain.Configuration import EnvironmentConfiguration
 env_config = EnvironmentConfiguration(
     config={
         # Define an environment file and load it into the configuration
-        # **dotenv_values(".env.secrets")
+        #
+        # Example:
+        #
+        #   **dotenv_values(".env.secrets")
+        #
         # Load shared development variables
         **dotenv_values(".env.shared")
     }
