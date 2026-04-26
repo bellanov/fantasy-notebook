@@ -125,6 +125,7 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
 .venv
 env/
 venv/
@@ -170,3 +171,4 @@ coverage/
 
 # Marimo
 **/__marimo__/
+

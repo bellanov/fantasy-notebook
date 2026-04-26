@@ -19,7 +19,7 @@ classifiers = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["python_template/"]
+packages = ["notebooks/"]
 
 [project.urls]
 Homepage = "https://github.com/bellanov/etl-pipeline"
