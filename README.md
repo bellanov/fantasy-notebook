@@ -29,7 +29,7 @@ First, a local project environment needs to be created, then the project's modul
    deactivate
    ```
 
-## Testing, Linting, and Formatting
+## Testing
 
 Execute unit tests to validate the installation.
 
