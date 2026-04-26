@@ -2,7 +2,7 @@
 
 import pytest
 
-from fantasy_notebook import calc as app
+from notebooks import calc as app
 
 
 @pytest.mark.unit  # type: ignore

@@ -37,3 +37,11 @@ Execute unit tests to validate the installation.
 # Execute Unit Tests
 scripts/test.sh
 ```
+
+## Execute Notebook
+
+Execute any of the Notebooks in the `notebooks/` directory.
+
+```sh
+# Execute Unit Tests
+scripts/
