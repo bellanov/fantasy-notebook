@@ -2,7 +2,7 @@
 
 import pytest
 
-from notebooks.domain.Configuration import Configuration, EnvironmentConfiguration
+from notebooks.domain.Configuration import EnvironmentConfiguration
 
 
 @pytest.mark.unit
