@@ -1,7 +1,1 @@
-ipython
-pytest
-black
-coverage
-flake8
-isort
-mypy
+marimo[recommended]

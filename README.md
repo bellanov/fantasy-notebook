@@ -23,7 +23,7 @@ First, a local project environment needs to be created, then the project's modul
    source .venv/bin/activate
 
    # Install Dependencies
-   pip install -r requirements.txt 
+   pip install -r requirements.txt -r dev-requirements.txt
 
    # Deactivate Virtual Environment
    deactivate
