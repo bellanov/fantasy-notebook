@@ -40,8 +40,8 @@ scripts/test.sh
 
 ## Execute Notebook
 
-Execute any of the Notebooks in the `notebooks/` directory.
+Execute any of the Notebooks in the `notebooks/` directory using *Marimo*.
 
 ```sh
-# Execute Unit Tests
-scripts/
+marimo run sports.py
+```
