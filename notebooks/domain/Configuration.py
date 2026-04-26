@@ -1,6 +1,6 @@
-"""Configuration.
+"""Generic Configuration.
 
-Model that represents a generic Configuration.
+Model that represents a Generic Configuration.
 """
 
 from abc import ABC, abstractmethod
