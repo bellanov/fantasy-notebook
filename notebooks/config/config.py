@@ -8,7 +8,6 @@ from dotenv import dotenv_values
 from notebooks.domain.Configuration import EnvironmentConfiguration
 
 
-# Initialize the Environment Configuration
 env_config = EnvironmentConfiguration(
     config={
         # Define an environment file and load it into the configuration
