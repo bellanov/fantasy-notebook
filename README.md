@@ -29,11 +29,19 @@ First, a local project environment needs to be created, then the project's modul
    deactivate
    ```
 
-## Testing, Linting, and Formatting
+## Testing
 
 Execute unit tests to validate the installation.
 
 ```sh
 # Execute Unit Tests
 scripts/test.sh
+```
+
+## Execute Notebook
+
+Execute any of the Notebooks in the `notebooks/` directory using *Marimo*.
+
+```sh
+marimo run sports.py
 ```
