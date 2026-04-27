@@ -28,7 +28,6 @@ def _(mo, sport):
     **Sport**
 
     {sport}
-
     """)
     return
 

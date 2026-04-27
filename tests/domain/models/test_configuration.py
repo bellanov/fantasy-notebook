@@ -1,8 +1,8 @@
-"""Test Environent Configuration."""
+"""Test Configuration Model."""
 
 import pytest
 
-from notebooks.domain.Configuration import EnvironmentConfiguration
+from notebooks.domain.models.Configuration import EnvironmentConfiguration
 
 
 @pytest.mark.unit
