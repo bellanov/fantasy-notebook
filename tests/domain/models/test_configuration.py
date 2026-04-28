@@ -6,15 +6,15 @@ from notebooks.domain.models.Configuration import EnvironmentConfiguration
 
 
 @pytest.mark.unit
-def test_environment_configuration_get():
+def test_environment_configuration_get() -> None:
     """Test Environment Configuration - Get."""
-    env_config = EnvironmentConfiguration(config={"env": "production", "debug": False})
-    assert env_config.get_config() == {"env": "production", "debug": False}
+    config = EnvironmentConfiguration(config={"env": "production", "debug": False})
+    assert config.get_config() == {"env": "production", "debug": False}
 
 
 @pytest.mark.unit
-def test_environment_configuration_set():
+def test_environment_configuration_set() -> None:
     """Test Environment Configuration - Set."""
-    env_config = EnvironmentConfiguration(config={})
-    env_config.set_config({"env": "development", "debug": True})
-    assert env_config.get_config() == {"env": "development", "debug": True}
+    config = EnvironmentConfiguration(config={})
+    config.set_config({"env": "development", "debug": True})
+    assert config.get_config() == {"env": "development", "debug": True}

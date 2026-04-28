@@ -1,18 +1,19 @@
-"""Define Service Registries."""
+"""Registry Model."""
 
 from abc import ABC, abstractmethod
+from typing import Any
 
-Service = dict[str, object]
+type Service = Any
 
 
 class Registry(ABC):
     """Generic Registry."""
 
-    services: Service
+    services: dict[str, Service]
 
     # Retrieve an Item
     @abstractmethod
-    def get(self, key: str) -> Service: ...
+    def get_service(self, key: str) -> Service: ...
 
     # Register an Item
     @abstractmethod
@@ -26,7 +27,7 @@ class ServiceRegistry(Registry):
         """Initialize the Registry."""
         self.services = {}
 
-    def get(self, key: str) -> Service:
+    def get_service(self, key: str) -> Service:
         """Retrieve a Service."""
         return self.services.get(key)
 
