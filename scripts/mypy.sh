@@ -1,6 +1,12 @@
 #!/bin/bash
 #
-# Execute Type Checking.
+# Execute unit tests.
 
-echo "Executing Type Checking..."
-mypy --strict notebooks/ tests/
+echo "Executing Unit Tests..."
+coverage run -m pytest tests/
+
+echo "Generating Report..."
+coverage report -m
+
+echo "Build HTML Report..."
+coverage html
