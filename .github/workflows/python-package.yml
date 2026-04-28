@@ -37,6 +37,7 @@ jobs:
 
     - name: Type Check with mypy
       run: |
+        chmod scripts/mypy.sh
         scripts/mypy.sh
 
     - name: Test with pytest

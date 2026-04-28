@@ -8,7 +8,6 @@ app = marimo.App(width="medium")
 def _():  # type: ignore
     import httpx
     import marimo as mo
-    from dotenv import dotenv_values
 
     from notebooks.domain.environment import registry  # type: ignore
 
