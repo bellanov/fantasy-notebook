@@ -36,9 +36,9 @@ jobs:
         scripts/lint.sh
 
     # TODO: Troubleshooting script execution 
-    # - name: Type Check with mypy
-    #   run: |
-    #     scripts/mypy.sh
+    - name: Type Check with mypy
+      run: |
+        scripts/mypy.sh
 
     - name: Test with pytest
       run: |
